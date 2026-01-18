@@ -6,7 +6,7 @@ const projects = [
     title: "AI-Powered Meeting Summarizer Agent(KR.AI)",
     description: "Converts audio meeting recordings into structured text summaries by transcribing speech, identifying key topics, decisions, and presenting them in a clear and readable format.",
 
-    image: "/images/project1-image.png",
+    image: "/public/images/project1-image.png",
     tags: ["ReactJS", "Tailwind CSS", "FastAPI", "API Integration"],
     demoUrl: "https://frontend-git-main-kamal-kumars-projects-103176a1.vercel.app/",
     githubUrl: "https://github.com/Kamal-Kumar123/NEURAL_NINJAS_MEETING_BOT",
@@ -17,7 +17,7 @@ const projects = [
     title: "Social Media Marketing Bot(AdBot)",
     description:
       "A Streamlit-based Social Media Marketing Bot that directly generates image ads using image-generation LLMs and publishes them to social media platforms, providing ready-to-use ad creatives as the final output.",
-    image: "/images/project2-image.png",
+    image: "public/images/project2-image.png",
     tags: ["Python and its Standard Libraries", "Streamlit","Object Oriented Programming","API Integration"],
     demoUrl: "",
     githubUrl: "https://github.com/Kamal-Kumar123/Social_Media_Marketing_Bot",
@@ -27,7 +27,7 @@ const projects = [
     title: "Suspicious Transaction Detection System",
     description:
       "A comprehensive machine learning-based fraud detection system with a React frontend and Python Flask backend, specifically designed for credit card transaction analysis.",
-    image: "/images/project3-image.png",
+    image: "public/images/project3-image.png",
     tags: ["Python and its Libraries", "ReactJS", "Data Analysis","Machine Learning"],
     demoUrl: "https://hack-ws41-fijdmtwyd-kamal-kumars-projects-103176a1.vercel.app/",
     githubUrl: "https://github.com/Kamal-Kumar123/hack",
@@ -37,7 +37,7 @@ const projects = [
     title: "Football Player Tracking System",
     description:
       "A video-based player tracking project using YOLOv8 and centroid logic to track players by position, jersey color, and height, producing annotated videos and CSV logs with consistent IDs.",
-    image: "/images/project4-image.png",
+    image: "public/images/project4-image.png",
     tags: ["Python and its Libraries","Data Analysis","Machine Learning","Computer Vision"],
     demoUrl: "",
     githubUrl: "https://github.com/Kamal-Kumar123/StealthModeAssignment",
