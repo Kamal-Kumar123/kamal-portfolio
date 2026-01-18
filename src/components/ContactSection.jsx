@@ -3,6 +3,7 @@ import {
   Linkedin,
   Github,
   Twitter,
+  IdCard,
   Mail,
   MapPin,
   Phone,
@@ -174,6 +175,9 @@ export const ContactSection = () => {
                 </a>
                 <a href="https://x.com/KamalKumar96697" target="_blank">
                   <Twitter />
+                </a>
+                 <a href="https://dinq.me/kamalkumar123" target="_blank" title="DINQ Profile">
+                  <IdCard />
                 </a>
 
               </div>
