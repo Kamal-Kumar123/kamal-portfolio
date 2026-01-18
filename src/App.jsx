@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Toaster />
-      <BrowserRouter>
+      <BrowserRouter basename="/kamal-portfolio">
+
+     
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
