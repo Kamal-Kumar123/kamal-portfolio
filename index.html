@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const redirect = params.get("redirect");
+        if (redirect) {
+          window.history.replaceState(null, "", redirect);
+        }
+      })();
+    </script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/kamal-portfolio/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script type="module" crossorigin src="/kamal-portfolio/assets/index-CvI38SSt.js"></script>
+    <link rel="stylesheet" crossorigin href="/kamal-portfolio/assets/index-zZW1G8Ku.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
